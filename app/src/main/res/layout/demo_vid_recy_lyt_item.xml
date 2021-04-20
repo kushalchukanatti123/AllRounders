@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:layout_gravity="right"
+        android:id="@+id/adv_add_demo_recy_item_del_id"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/adv_add_demo_recy_item_img_id"
+        android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:id="@+id/my_stud_prog_lyt"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="classes"
+            android:id="@+id/my_stud_class_txt_id"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="students"
+            android:id="@+id/my_stud_stud_txt_id"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/my_stud_fram_container_lyt_id"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:id="@+id/my_stud_login_fram_lyt_id"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:elevation="1dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="You need to register as a teacher"
+            android:layout_gravity="center"
+            android:layout_marginBottom="100dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/my_stud_register_btn_id"
+            android:text="register"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

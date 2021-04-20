@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "831829558678",
+    "firebase_url": "https://theallroundersedu.firebaseio.com",
+    "project_id": "theallroundersedu",
+    "storage_bucket": "theallroundersedu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831829558678:android:a4200f3629e52c3e6209b7",
+        "android_client_info": {
+          "package_name": "com.albatross.allrounders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831829558678-esqapv0tma9ij1d7tmbkg8fd238it938.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.albatross.allrounders",
+            "certificate_hash": "15ee1f43a2294a35fc1c9a9765cc8e5b8499c870"
+          }
+        },
+        {
+          "client_id": "831829558678-amhhgu8cankfqd5n35ccffauj79tkoi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdek_Uax6z7TrwOUvhRA3xls-Rbfye09U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831829558678-amhhgu8cankfqd5n35ccffauj79tkoi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

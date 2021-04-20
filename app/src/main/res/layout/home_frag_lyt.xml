@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_filter_list_black_24dp"
+        android:layout_gravity="bottom|right"
+        android:id="@+id/home_filter_btn_id"
+        android:elevation="2dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:elevation="1dp"
+        android:id="@+id/home_frag_search_frame_lyt_id"
+        android:background="@drawable/white_rect_bg"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/home_frag_search_back_img_btn_id2"
+                android:layout_width="50dp"
+                android:src="@drawable/ic_keyboard_backspace_black_24dp"
+                android:layout_height="50dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="search subject"
+                android:layout_marginLeft="60dp"
+                android:id="@+id/home_frag_search_Edttxt_id2"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:id="@+id/home_frag_search_recy_vw_id"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </FrameLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:layout_height="match_parent">
+       <TextView
+           android:layout_width="wrap_content"
+           android:text="home"
+           android:layout_gravity="center_horizontal"
+           android:layout_height="wrap_content" />
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="match_parent"
+               android:hint="search subject"
+               android:layout_marginRight="30dp"
+               android:layout_marginLeft="30dp"
+               android:padding="10dp"
+               android:gravity="center_vertical"
+               android:drawableLeft="@drawable/ic_search_black_24dp"
+               android:textSize="20sp"
+               android:id="@+id/home_frag_search_Edttxt_id"
+               android:layout_height="wrap_content" />
+           <ImageButton
+               android:layout_width="wrap_content"
+               android:src="@drawable/ic_clear_black_24dp"
+               android:layout_alignParentRight="true"
+               android:visibility="gone"
+               android:id="@+id/home_frag_search_clear_btn_id"
+               android:layout_height="wrap_content" />
+       </RelativeLayout>
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:id="@+id/home_frag_recy_vw_id"
+           android:layout_height="match_parent">
+
+       </androidx.recyclerview.widget.RecyclerView>
+   </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

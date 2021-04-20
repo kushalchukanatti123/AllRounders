@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="class name"
+        android:id="@+id/up_sub_name_edtxt_id"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="cancel"
+            android:id="@+id/up_sub_name_cancel_btn_id"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="ok"
+            android:id="@+id/up_sub_name_ok_btn_id"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

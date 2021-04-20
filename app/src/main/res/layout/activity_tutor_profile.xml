@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAIN.TutorProfileActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:visibility="gone"
+        android:id="@+id/tutor_prof_fram_lyt_id"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="50dp"
+                android:id="@+id/tutor_prof_act_back_img_btn_id"
+                android:src="@drawable/ic_keyboard_backspace_black_24dp"
+                android:layout_height="50dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Connect"
+                android:layout_alignParentRight="true"
+                android:id="@+id/tutor_prof_act_conncect_btn_id"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="60dp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/tutor_prof_act_img_vw_id_id"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/tutor_prof_act_name_id"
+                    android:layout_height="wrap_content" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/tutor_prof_act_chip_grp_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    >
+
+                </com.google.android.material.chip.ChipGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Description"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/tutor_prof_act_desc_id"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Address"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/tutor_prof_act_address_id"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Have a query?"
+                android:layout_marginRight="60dp"
+                android:id="@+id/tutor_prof_act_query_edtxt_id"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/tutor_prof_act_send_query_img_btn_id"
+                android:src="@drawable/ic_send_black_24dp"
+                android:layout_height="50dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

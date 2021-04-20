@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="General"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:id="@+id/notif_Frag_gen_txt_id"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Requests"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:id="@+id/notif_Frag_req_txt_id"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/notif_frag_fram_lyt_id"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
